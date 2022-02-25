@@ -1,0 +1,51 @@
+.full-width-table {
+  width: 1028px;
+}
+
+.activity-table {
+  flex: 1;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.tr {
+  text-align: center;
+}
+
+.activity-header{
+  font-size: medium;
+  color: black;
+}
+
+
+tr.student-detail-row {
+  height: 0;
+}
+
+tr.student-element-row:not(.student-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.student-element-row:not(.student-expanded-row):active {
+  background: #efefef;
+}
+
+.student-element-row td {
+  border-bottom-width: 0;
+}
+
+.student-element-detail {
+  overflow: hidden;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  background-color: #fcf7f7;
+  box-shadow: inset 2px 3px 8px #c1c1c1;
+  border-radius: 8px;
+}
+
+.activity-content div{
+  width: 100%;
+  text-align: left;
+}
+
